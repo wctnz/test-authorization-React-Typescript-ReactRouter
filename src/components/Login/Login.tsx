@@ -1,4 +1,3 @@
-import React from "react";
 import { setUser } from "../../store/slices/userSlice";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import { Form } from "../Form/Form";

@@ -9,8 +9,6 @@ interface CardList {
     items: User[]
 }
 
-
-
 const CardList: FC<CardList> = ({ items }) => {
     return (
         <>

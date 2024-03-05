@@ -3,7 +3,6 @@ import CardList from "../components/CardList/CardList";
 import Header from "../components/Header/Header";
 import { useAuth } from "../hooks/useAuth";
 import { useAppDispatch, useAppSelector } from "../hooks/redux-hooks";
-import { teamMemberSlice } from "../store/slices/teamMemberSlice";
 import { useEffect } from "react";
 import { fetchMembers } from "../store/reducers/actionCreators"
 

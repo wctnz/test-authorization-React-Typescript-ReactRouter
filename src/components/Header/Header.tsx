@@ -2,6 +2,7 @@ import { useAppDispatch } from "../../hooks/redux-hooks";
 import { removeUser } from "../../store/slices/userSlice";
 import Button from "../Button/Button";
 import cl from "./Header.module.css"
+import { BiExit } from "react-icons/bi";
 
 const Header = () => {
     const dispatch = useAppDispatch();
@@ -26,6 +27,7 @@ const Header = () => {
                 <Button
                     onClick={handleLogIut}>Выход</Button>
             </div>
+            <div><BiExit className={cl.buttonMobile} /></div>
         </div>
     );
 };

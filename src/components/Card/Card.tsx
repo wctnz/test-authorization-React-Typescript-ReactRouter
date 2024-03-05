@@ -1,11 +1,9 @@
-import { FC, useEffect, useRef, useState } from 'react';
+import { FC, useEffect, useRef } from 'react';
 import { User } from '../../types/types';
 import cl from "./Card.module.css"
 import { IoIosHeart } from "react-icons/io";
 import { IoIosHeartEmpty } from "react-icons/io";
 import { useAppSelector } from '../../hooks/redux-hooks';
-import userSlice from '../../store/slices/userSlice';
-import { teamMemberSlice } from '../../store/slices/teamMemberSlice';
 import { useDispatch } from 'react-redux';
 import { favouritesMembers } from '../../store/slices/favouritesMembersSlice';
 
@@ -17,8 +15,6 @@ const Card: FC<CardProps> = ({ user }) => {
     const svgRef = useRef<HTMLDivElement>(null)
     const dispatch = useDispatch()
     const favourites = useAppSelector(state => state.favourites.favourites)
-
-    console.log("favourites", favourites)
 
     const handleLikedClick = (event: React.MouseEvent<HTMLDivElement>) => {
         event.preventDefault()
