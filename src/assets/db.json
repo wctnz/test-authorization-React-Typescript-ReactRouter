@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Peter",
+    "image": "https://www.shutterstock.com/image-vector/default-avatar-profile-icon-vector-600nw-1745180411.jpg",
+    "liked": false
+  },
+  {
+    "name": "Ilya",
+    "image": "https://www.shutterstock.com/image-vector/default-avatar-profile-icon-vector-600nw-1745180411.jpg",
+    "liked": false
+  },
+  {
+    "name": "Ann",
+    "image": "https://www.shutterstock.com/image-vector/default-avatar-profile-icon-vector-600nw-1745180411.jpg",
+    "liked": false
+  },
+  {
+    "name": "Chris",
+    "image": "https://www.shutterstock.com/image-vector/default-avatar-profile-icon-vector-600nw-1745180411.jpg",
+    "liked": false
+  },
+  {
+    "name": "Alex",
+    "image": "https://www.shutterstock.com/image-vector/default-avatar-profile-icon-vector-600nw-1745180411.jpg",
+    "liked": false
+  },
+  {
+    "name": "Ostin",
+    "image": "https://www.shutterstock.com/image-vector/default-avatar-profile-icon-vector-600nw-1745180411.jpg",
+    "liked": false
+  },
+  {
+    "name": "Mike",
+    "image": "https://www.shutterstock.com/image-vector/default-avatar-profile-icon-vector-600nw-1745180411.jpg",
+    "liked": false
+  },
+  {
+    "name": "Jane",
+    "image": "https://www.shutterstock.com/image-vector/default-avatar-profile-icon-vector-600nw-1745180411.jpg",
+    "liked": false
+  }
+]

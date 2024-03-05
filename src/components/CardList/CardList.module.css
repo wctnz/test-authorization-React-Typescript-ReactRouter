@@ -1,0 +1,39 @@
+.cardList {
+  max-width: 91%;
+  display: flex;
+  /* flex-direction: column; */
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.selectContainer {
+  display: flex;
+  /* margin: auto; */
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.button {
+  width: 170px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 8px, 16px, 8px, 16px;
+  text-align: center;
+  background: transparent;
+}
+
+.button:hover {
+opacity: 0.8;
+}
+
+.buttonSpan {
+position: relative;
+top: 2px
+}
+
+.link {
+  text-decoration: none;
+}

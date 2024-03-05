@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+}
+
+.form {
+    width: 30%;
+    margin: auto;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #512689;
+}

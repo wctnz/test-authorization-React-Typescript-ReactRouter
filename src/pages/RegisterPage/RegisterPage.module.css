@@ -1,0 +1,13 @@
+.link {
+  text-decoration: none;
+  color: #512689;
+}
+
+.container {
+  display: flex;
+}
+
+.form {
+  width: 30%;
+  margin: auto;
+}

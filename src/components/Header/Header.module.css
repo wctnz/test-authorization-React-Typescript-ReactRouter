@@ -1,0 +1,28 @@
+.headerContainer {
+    height: 265px;
+    background-color: #512689;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+.sign {
+    width: 60%;
+    margin-left: 200px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+.button {
+    margin-bottom: 180px;
+    margin-left: 40px;
+}
